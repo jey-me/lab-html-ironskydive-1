@@ -1,0 +1,58 @@
+/*en el head se pone el <link rel="styleshit" href=./main.css">
+#el ./ siginifica que está en el mismo fichero#*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+* {
+    margin: 0;
+    padding: 0;
+    font: Roboto;
+    size: 10px;
+    line height: 3.5em;
+    weight: 300;
+  }
+
+  h1, h2, h3, 4, h5, h6 {
+    font: Roboto Condensed ;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
+  }
+  
+  form {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    padding-right: 50px;
+    width: 250px;
+    border: 3px solid rgb(67, 163, 230);
+  }
+  
+  textarea, input {
+      width: 100%;
+      border: 1px solid rgb(67, 163, 230);
+      border-radius: 2px;
+  }
+  
+  input[type="checkbox"] {
+      width: auto;
+  }
+  
+  label, textarea, input {
+      margin: 5px 0;
+  }
+  
+  button {
+    background-color: rgb(67, 163, 230);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 8px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    margin-top: 5px;
+  }
